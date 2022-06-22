@@ -4,3 +4,5 @@ root to: "pages#index"
   # Defines the root path route ("/")
   # root "articles#index"
 end
+
+get "/about", to: "pages#about"
